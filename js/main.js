@@ -1,9 +1,3 @@
-/**
- * PLACED — Career Readiness Operating System
- * Master JavaScript Engine (Vanilla JS, Modular, Production-Grade)
- * "INFINITE POSSIBILITIES. DEFINITE OUTCOME."
- */
-
 "use strict";
 
 (function () {

@@ -1,9 +1,3 @@
-/* ==========================================================
-   PLACED — Career Readiness Operating System
-   Design System & Master Stylesheet
-   Pure CSS3 — Modern, Responsive, Accessible
-   ========================================================== */
-
 /* --- 1. Fonts & Imports --- */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Space+Grotesk:wght@300..700&display=swap');
 
@@ -143,6 +137,7 @@
   0% {
     stroke-dashoffset: 100;
   }
+
   100% {
     stroke-dashoffset: 0;
   }
@@ -200,7 +195,9 @@
 }
 
 /* --- 3. Reset & Base Styles --- */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -231,7 +228,8 @@ body.nav-locked {
   overflow: hidden;
 }
 
-img, svg {
+img,
+svg {
   display: block;
   max-width: 100%;
 }
@@ -249,12 +247,15 @@ button {
   background: none;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   font-family: var(--font-body);
   font-size: 1rem;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -265,7 +266,12 @@ ul, ol {
 }
 
 /* --- 4. Typography Hierarchy --- */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-display);
   font-weight: 700;
   line-height: 1.15;
@@ -680,8 +686,8 @@ h1, h2, h3, h4, h5, h6 {
 /* --- 8. Hero Section --- */
 .hero-section {
   background: radial-gradient(circle at 85% 20%, rgba(25, 185, 196, 0.16), transparent 50%),
-              radial-gradient(circle at 10% 80%, rgba(6, 34, 56, 0.8), transparent 45%),
-              var(--midnight);
+    radial-gradient(circle at 10% 80%, rgba(6, 34, 56, 0.8), transparent 45%),
+    var(--midnight);
   color: #FFFFFF;
   padding-top: clamp(4rem, 7vw, 6.5rem);
   padding-bottom: clamp(5rem, 8vw, 7.5rem);
@@ -1914,10 +1920,13 @@ textarea.form-control {
 
 /* --- 20. Keyframe Animations --- */
 @keyframes pulseGlow {
-  0%, 100% {
+
+  0%,
+  100% {
     transform: scale(1);
     box-shadow: 0 0 10px var(--teal-2);
   }
+
   50% {
     transform: scale(1.25);
     box-shadow: 0 0 18px var(--teal-2);
@@ -1925,13 +1934,27 @@ textarea.form-control {
 }
 
 @keyframes floatMotion1 {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
 }
 
 @keyframes floatMotion2 {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(8px); }
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(8px);
+  }
 }
 
 /* Scroll reveal utility */
@@ -1952,37 +1975,47 @@ textarea.form-control {
     grid-template-columns: 1fr;
     gap: 3.5rem;
   }
+
   .dashboard-wrapper {
     max-width: 500px;
     margin: 0 auto;
   }
+
   .journey-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .ecosystem-grid {
     grid-template-columns: 1fr;
   }
+
   .mentor-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .stats-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .phase-system-container {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
+
   .footer-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .program-split,
   .program-split.reverse {
     grid-template-columns: 1fr;
     gap: 2.5rem;
   }
+
   .program-split.reverse .program-visual {
     order: 2;
   }
+
   .program-split.reverse .program-info {
     order: 1;
   }
@@ -1993,12 +2026,15 @@ textarea.form-control {
     white-space: normal;
     font-size: clamp(1.8rem, 4.5vw, 2.4rem);
   }
+
   .desktop-nav {
     display: none;
   }
+
   .mobile-toggle-btn {
     display: flex;
   }
+
   .contact-layout {
     grid-template-columns: 1fr;
   }
@@ -2008,38 +2044,48 @@ textarea.form-control {
   :root {
     --header-height: 72px;
   }
+
   .journey-grid {
     grid-template-columns: 1fr;
   }
+
   .mentor-grid {
     grid-template-columns: 1fr;
   }
+
   .stats-grid {
     grid-template-columns: 1fr;
   }
+
   .footer-grid {
     grid-template-columns: 1fr;
   }
+
   .hero-ctas {
     flex-direction: column;
     align-items: stretch;
   }
+
   .hero-ctas .btn {
     width: 100%;
   }
+
   .phase-orbit-stage {
     width: 320px;
     height: 320px;
   }
+
   .phase-node-btn {
     width: 44px;
     height: 44px;
     font-size: 0.9rem;
   }
+
   .phase-orbit-core {
     width: 95px;
     height: 95px;
   }
+
   .floating-badge {
     display: none;
   }
@@ -2047,12 +2093,16 @@ textarea.form-control {
 
 /* Accessibility: Reduced Motion */
 @media (prefers-reduced-motion: reduce) {
-  *, *::before, *::after {
+
+  *,
+  *::before,
+  *::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+
   .reveal-on-scroll {
     opacity: 1 !important;
     transform: none !important;
