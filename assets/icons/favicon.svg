@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <linearGradient id="fav-infinity-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#11D1C1" />
+      <stop offset="50%" stop-color="#19B9C4" />
+      <stop offset="100%" stop-color="#00A8B5" />
+    </linearGradient>
+    <linearGradient id="fav-navy-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#052B45" />
+      <stop offset="100%" stop-color="#031827" />
+    </linearGradient>
+    <filter id="favGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <!-- Rounded Navy Base Card -->
+  <rect width="48" height="48" rx="12" fill="url(#fav-navy-grad)" stroke="#19B9C4" stroke-width="1" stroke-opacity="0.35" />
+  <!-- Subtle Inner Track -->
+  <path d="M 24,24 C 20,15 12,15 9,24 C 12,33 20,33 24,24 C 28,15 36,15 39,24 C 36,33 28,33 24,24 Z" stroke="rgba(25, 185, 196, 0.25)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  <!-- Glowing Sky Blue Infinite Symbol -->
+  <path d="M 24,24 C 20,15 12,15 9,24 C 12,33 20,33 24,24 C 28,15 36,15 39,24 C 36,33 28,33 24,24 Z" stroke="url(#fav-infinity-grad)" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#favGlow)" />
+</svg>

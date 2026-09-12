@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Page Not Found | PLACED</title>
+  <meta name="description" content="This page went off the roadmap. Return to the PLACED career readiness system.">
+  <meta name="theme-color" content="#031827">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body style="background-color: var(--midnight); color: #FFFFFF;">
+
+  <!-- PAGE PRELOADER (Infinite Roaming Sky Blue Symbol) -->
+  <div class="page-loader" id="pageLoader" aria-label="Loading PLACED" role="status">
+    <div class="loader-content">
+      <div class="infinity-svg-wrapper">
+        <svg class="infinity-loader-svg" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="infinitySkyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#11D1C1" />
+              <stop offset="50%" stop-color="#19B9C4" />
+              <stop offset="100%" stop-color="#00A8B5" />
+            </linearGradient>
+            <filter id="infinityGlow" x="-25%" y="-25%" width="150%" height="150%">
+              <feGaussianBlur stdDeviation="3" result="blur" />
+              <feComposite in="SourceGraphic" in2="blur" operator="over" />
+            </filter>
+          </defs>
+          <path class="infinity-track" d="M 100,50 C 80,15 35,15 20,50 C 35,85 80,85 100,50 C 120,15 165,15 180,50 C 165,85 120,85 100,50 Z" pathLength="100" />
+          <path class="infinity-roam" d="M 100,50 C 80,15 35,15 20,50 C 35,85 80,85 100,50 C 120,15 165,15 180,50 C 165,85 120,85 100,50 Z" pathLength="100" filter="url(#infinityGlow)" />
+        </svg>
+      </div>
+      <div class="loader-brand-box">
+        <div class="loader-brand-title">placed</div>
+        <div class="loader-brand-tagline">infinite possibilities. definite outcome.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="index.html" class="site-logo" style="color: #FFFFFF;" aria-label="PLACED Homepage">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="165" height="40" fill="none">
+          <g transform="translate(4, 4)">
+                <rect width="40" height="40" rx="10" fill="#062238" stroke="#19B9C4" stroke-width="1.2"/>
+                <path d="M 20,20 C 16,12 10,12 7,20 C 10,28 16,28 20,20 C 24,12 30,12 33,20 C 30,28 24,28 20,20 Z" stroke="rgba(25, 185, 196, 0.25)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M 20,20 C 16,12 10,12 7,20 C 10,28 16,28 20,20 C 24,12 30,12 33,20 C 30,28 24,28 20,20 Z" stroke="#11D1C1" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+          <text x="56" y="29" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="800" letter-spacing="-0.04em" fill="#FFFFFF">PLACED</text>
+          <circle cx="152" cy="24" r="3" fill="#11D1C1"/>
+        </svg>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">HOME</a>
+        <a href="about.html" class="nav-link">ABOUT US</a>
+        <a href="programs.html" class="nav-link">PROGRAMS</a>
+        <a href="mentors.html" class="nav-link">MENTORS</a>
+        <a href="leadership.html" class="nav-link">LEADERSHIP</a>
+        <a href="alumni.html" class="nav-link">ALUMNI</a>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="theme-toggle-btn" data-theme-toggle aria-label="Toggle visual theme">
+          <svg class="icon-sun" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="icon-moon" style="display:none;" viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <a href="index.html" class="btn btn-demo">BACK TO ROADMAP</a>
+      </div>
+    </div>
+  </header>
+
+  <main style="flex: 1; display: flex; align-items: center; justify-content: center; padding: 6rem 1.5rem;">
+    <div class="container text-center" style="max-width: 680px;">
+      <div style="font-family: var(--font-display); font-size: clamp(5rem, 15vw, 9rem); font-weight: 800; line-height: 0.9; color: var(--teal-2); text-shadow: 0 0 40px rgba(25, 185, 196, 0.4); margin-bottom: 1.5rem;">
+        404
+      </div>
+      <span class="eyebrow eyebrow-light">OUT OF BOUNDS</span>
+      <h1 class="section-title" style="color: #FFFFFF; margin-bottom: 1.2rem; letter-spacing: -0.03em;">
+        THIS PAGE WENT OFF THE ROADMAP.
+      </h1>
+      <p class="lead-text" style="color: #A4B3C2; margin: 0 auto 2.5rem;">
+        The link you followed may have been updated or relocated within the readiness operating framework.
+      </p>
+      <a href="index.html" class="btn btn-primary" style="padding: 1rem 2.2rem; font-size: 1.05rem;">
+        BACK HOME →
+      </a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+        <div>&copy; 2026 PLACED. ALL RIGHTS RESERVED.</div>
+        <div style="font-family: var(--font-display); letter-spacing: 0.08em; font-weight: 600;">
+          DESIGNED FOR THE FUTURE.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

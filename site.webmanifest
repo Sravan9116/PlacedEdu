@@ -1,0 +1,17 @@
+{
+  "name": "PLACED — Career Readiness Operating System",
+  "short_name": "PLACED",
+  "description": "Infinite Possibilities. Definite Outcome. The structured career readiness framework for ambitious students and institutions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#031827",
+  "theme_color": "#052B45",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

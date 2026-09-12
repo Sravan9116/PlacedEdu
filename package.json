@@ -1,0 +1,22 @@
+{
+  "name": "placed-frontend",
+  "version": "1.0.0",
+  "description": "PLACED — Infinite Possibilities. Definite Outcome. Modern Career Readiness Operating System frontend website built with HTML5, CSS3, and Vanilla JavaScript.",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve .",
+    "test": "node -e \"console.log('Validating static files...'); const fs = require('fs'); ['index.html','about.html','programs.html','mentors.html','leadership.html','alumni.html','contact.html','404.html'].forEach(f => { if(!fs.existsSync(f)) throw new Error('Missing '+f); }); console.log('All static HTML pages validated successfully.');\""
+  },
+  "keywords": [
+    "placed",
+    "edtech",
+    "career-readiness",
+    "placement-training",
+    "interview-preparation",
+    "vanilla-javascript",
+    "modern-css"
+  ],
+  "author": "PLACED Systems",
+  "license": "MIT"
+}

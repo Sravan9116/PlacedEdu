@@ -1,0 +1,6 @@
+# robots.txt for PLACED
+# Note: Replace YOUR-DOMAIN.com with your verified production domain before launch.
+User-agent: *
+Allow: /
+
+Sitemap: https://YOUR-DOMAIN.com/sitemap.xml

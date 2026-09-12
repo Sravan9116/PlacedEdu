@@ -1,0 +1,22 @@
+# Global security headers for static site hosting (Netlify / Cloudflare Pages)
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  X-XSS-Protection: 1; mode=block
+
+# Cache control for CSS and JS assets
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache control for images, fonts, and icons
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Cache control for HTML documents
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate

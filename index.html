@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLACED — Career Readiness &amp; Student Development | Infinite Possibilities. Definite Outcome.</title>
+  <meta name="description" content="PLACED is the career-readiness operating system connecting progressive learning, real-world recruitment simulations, and expert mentorship into one structured journey.">
+  <meta name="theme-color" content="#052B45">
+  <link rel="canonical" href="https://YOUR-DOMAIN.com/">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+
+  <!-- OpenGraph / Social Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://YOUR-DOMAIN.com/">
+  <meta property="og:title" content="PLACED — Career Readiness &amp; Student Development">
+  <meta property="og:description" content="Infinite Possibilities. Definite Outcome. A structured 7-phase framework engineered for student placement success.">
+  <meta property="og:image" content="https://YOUR-DOMAIN.com/assets/images/og-image.svg">
+
+  <!-- Twitter Card Metadata -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="PLACED — Career Readiness Operating System">
+  <meta name="twitter:description" content="Build Skills. Simulate Pressure. Own The Outcome.">
+  <meta name="twitter:image" content="https://YOUR-DOMAIN.com/assets/images/og-image.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Structured Data / JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "PLACED",
+    "url": "https://YOUR-DOMAIN.com/",
+    "logo": "https://YOUR-DOMAIN.com/assets/images/logo.svg",
+    "slogan": "Infinite Possibilities. Definite Outcome.",
+    "description": "EdTech and Career Readiness Operating System providing structured skill benchmarking, simulated recruitment, and expert mentorship."
+  }
+  </script>
+</head>
+<body>
+
+  <!-- PAGE PRELOADER (Infinite Roaming Sky Blue Symbol) -->
+  <div class="page-loader" id="pageLoader" aria-label="Loading PLACED" role="status">
+    <div class="loader-content">
+      <div class="infinity-svg-wrapper">
+        <svg class="infinity-loader-svg" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="infinitySkyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#11D1C1" />
+              <stop offset="50%" stop-color="#19B9C4" />
+              <stop offset="100%" stop-color="#00A8B5" />
+            </linearGradient>
+            <filter id="infinityGlow" x="-25%" y="-25%" width="150%" height="150%">
+              <feGaussianBlur stdDeviation="3" result="blur" />
+              <feComposite in="SourceGraphic" in2="blur" operator="over" />
+            </filter>
+          </defs>
+          <path class="infinity-track" d="M 100,50 C 80,15 35,15 20,50 C 35,85 80,85 100,50 C 120,15 165,15 180,50 C 165,85 120,85 100,50 Z" pathLength="100" />
+          <path class="infinity-roam" d="M 100,50 C 80,15 35,15 20,50 C 35,85 80,85 100,50 C 120,15 165,15 180,50 C 165,85 120,85 100,50 Z" pathLength="100" filter="url(#infinityGlow)" />
+        </svg>
+      </div>
+      <div class="loader-brand-box">
+        <div class="loader-brand-title">placed</div>
+        <div class="loader-brand-tagline">infinite possibilities. definite outcome.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER & NAVIGATION -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <!-- Brand Logo -->
+      <a href="index.html" class="site-logo" aria-label="PLACED Homepage">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="165" height="40" fill="none">
+          <g transform="translate(4, 4)">
+            <rect width="40" height="40" rx="10" fill="#052B45"/>
+            <path d="M 20,20 C 16,12 10,12 7,20 C 10,28 16,28 20,20 C 24,12 30,12 33,20 C 30,28 24,28 20,20 Z" stroke="rgba(25, 185, 196, 0.25)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M 20,20 C 16,12 10,12 7,20 C 10,28 16,28 20,20 C 24,12 30,12 33,20 C 30,28 24,28 20,20 Z" stroke="#11D1C1" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+          <text x="56" y="29" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="800" letter-spacing="-0.04em" fill="currentColor">PLACED</text>
+          <circle cx="152" cy="24" r="3" fill="#19B9C4"/>
+          <text x="57" y="39" font-family="'DM Sans', sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.16em" fill="#65778A">READINESS OS</text>
+        </svg>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link active">HOME</a>
+        <a href="about.html" class="nav-link">ABOUT US</a>
+        <a href="programs.html" class="nav-link">PROGRAMS</a>
+        <a href="mentors.html" class="nav-link">MENTORS</a>
+        <a href="leadership.html" class="nav-link">LEADERSHIP</a>
+        <a href="alumni.html" class="nav-link">ALUMNI</a>
+      </nav>
+
+      <!-- Header Action Controls -->
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button type="button" class="theme-toggle-btn" data-theme-toggle aria-label="Toggle visual theme">
+          <!-- Sun Icon (shown in dark mode) -->
+          <svg class="icon-sun" style="display:none;" viewBox="0 0 24 24">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <!-- Moon Icon (shown in light mode) -->
+          <svg class="icon-moon" viewBox="0 0 24 24">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Book a Demo Button -->
+        <a href="contact.html" class="btn btn-demo" id="navDemoBtn">BOOK A DEMO</a>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button type="button" class="mobile-toggle-btn" id="mobileToggleBtn" aria-label="Open mobile menu" aria-expanded="false" aria-controls="mobileNavOverlay">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Overlay Drawer -->
+  <div class="mobile-nav-overlay" id="mobileNavOverlay" aria-label="Mobile Navigation">
+    <div class="mobile-nav-links">
+      <a href="index.html" class="nav-link active">HOME</a>
+      <a href="about.html" class="nav-link">ABOUT US</a>
+      <a href="programs.html" class="nav-link">PROGRAMS</a>
+      <a href="mentors.html" class="nav-link">MENTORS</a>
+      <a href="leadership.html" class="nav-link">LEADERSHIP</a>
+      <a href="alumni.html" class="nav-link">ALUMNI</a>
+      <a href="contact.html" class="nav-link">CONTACT US</a>
+    </div>
+    <div class="mobile-nav-footer">
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">BOOK A DEMO ↗</a>
+      <p class="text-muted" style="font-size: 0.85rem; text-align: center;">
+        "INFINITE POSSIBILITIES. DEFINITE OUTCOME."
+      </p>
+    </div>
+  </div>
+
+  <main id="mainContent">
+
+    <!-- 8.1 HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Typography & CTAs -->
+          <div class="hero-content">
+            <span class="eyebrow eyebrow-light">CAREER READINESS, RE-ENGINEERED</span>
+            <h1 class="display-title hero-headline">BUILD SKILLS. <span class="text-teal">SIMULATE PRESSURE.</span> OWN THE OUTCOME.</h1>
+            <p class="hero-subtext">
+              PLACED connects progressive learning, real-world simulations, and expert mentorship into one structured journey — from starting point to placement.
+            </p>
+            <div class="hero-ctas">
+              <a href="programs.html" class="btn btn-primary">EXPLORE PROGRAMS →</a>
+              <a href="#placedJourney" class="btn btn-secondary">SEE THE JOURNEY ↓</a>
+            </div>
+            <div class="hero-proof-list">
+              <div class="proof-item">
+                <span class="proof-num">01</span> Structured learning
+              </div>
+              <div class="proof-item">
+                <span class="proof-num">02</span> Mock recruitment
+              </div>
+              <div class="proof-item">
+                <span class="proof-num">03</span> Mentor-led execution
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: PLACED OS / LIVE Dashboard -->
+          <div class="dashboard-wrapper">
+            <!-- Background Ambient Orbit Rings -->
+            <div class="orbit-ring orbit-1"></div>
+            <div class="orbit-ring orbit-2"></div>
+
+            <!-- Floating Micro Badges -->
+            <div class="floating-badge floating-badge-1">
+              <span class="badge-dot"></span>
+              <span>Industry mapped</span>
+            </div>
+            <div class="floating-badge floating-badge-2">
+              <span class="badge-dot"></span>
+              <span>Progress visible</span>
+            </div>
+
+            <!-- Main OS Card -->
+            <div class="os-dashboard-card" id="osDashboardCard">
+              <div class="os-header">
+                <div class="os-badge">
+                  <span class="live-pulse"></span>
+                  <span>PLACED OS / LIVE</span>
+                </div>
+                <span class="os-subhead">7 PHASES</span>
+              </div>
+
+              <div class="os-tracking-title">READINESS TRACKING</div>
+
+              <!-- Metric Progress Bars -->
+              <div class="metric-bar-group">
+                <div class="metric-label-row">
+                  <span>Communication</span>
+                  <span class="text-teal" style="font-family: var(--font-display);">92%</span>
+                </div>
+                <div class="metric-track">
+                  <div class="metric-fill" style="width: 92%;"></div>
+                </div>
+              </div>
+
+              <div class="metric-bar-group">
+                <div class="metric-label-row">
+                  <span>Aptitude</span>
+                  <span class="text-teal" style="font-family: var(--font-display);">84%</span>
+                </div>
+                <div class="metric-track">
+                  <div class="metric-fill" style="width: 84%;"></div>
+                </div>
+              </div>
+
+              <div class="metric-bar-group">
+                <div class="metric-label-row">
+                  <span>Interview</span>
+                  <span class="text-teal" style="font-family: var(--font-display);">76%</span>
+                </div>
+                <div class="metric-track">
+                  <div class="metric-fill" style="width: 76%;"></div>
+                </div>
+              </div>
+
+              <!-- Next Milestone Box -->
+              <div class="os-milestone-box">
+                <div>
+                  <div class="milestone-label">Next milestone</div>
+                  <div class="milestone-target">Recruitment simulation →</div>
+                </div>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#11D1C1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8.2 THE PLACED JOURNEY (4 Cards) -->
+    <section class="section" id="placedJourney">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="eyebrow">THE PLACED JOURNEY</span>
+          <h2 class="section-title">ONE SYSTEM. MULTIPLE OUTCOMES.</h2>
+          <p class="lead-text" style="margin: 0.8rem auto 0;">
+            Move forward from diagnosis to readiness without fragmented training efforts.
+          </p>
+        </div>
+
+        <div class="journey-grid">
+          <!-- Card 01: Apply -->
+          <article class="journey-card reveal-on-scroll">
+            <div class="journey-card-top">
+              <div class="journey-step-num">01</div>
+              <h3 class="journey-card-title">Apply</h3>
+              <p class="journey-card-desc">
+                Submit your profile and complete a diagnostic assessment to establish initial aptitude and communication benchmarks.
+              </p>
+            </div>
+            <div class="journey-indicator">
+              <span>DIAGNOSE</span>
+              <span>→</span>
+            </div>
+          </article>
+
+          <!-- Card 02: Upskill -->
+          <article class="journey-card reveal-on-scroll">
+            <div class="journey-card-top">
+              <div class="journey-step-num">02</div>
+              <h3 class="journey-card-title">Upskill</h3>
+              <p class="journey-card-desc">
+                Progressive learning mapped to practical industry requirements, critical reasoning, and technical agility.
+              </p>
+            </div>
+            <div class="journey-indicator">
+              <span>CALIBRATE</span>
+              <span>→</span>
+            </div>
+          </article>
+
+          <!-- Card 03: Simulate -->
+          <article class="journey-card reveal-on-scroll">
+            <div class="journey-card-top">
+              <div class="journey-step-num">03</div>
+              <h3 class="journey-card-title">Simulate</h3>
+              <p class="journey-card-desc">
+                Experience realistic mock tests, high-pressure group discussions, and multi-round recruitment panel scenarios.
+              </p>
+            </div>
+            <div class="journey-indicator">
+              <span>PRESSURE-TEST</span>
+              <span>→</span>
+            </div>
+          </article>
+
+          <!-- Card 04: Launch (Strong Accent Treatment) -->
+          <article class="journey-card journey-card-accent reveal-on-scroll">
+            <div class="journey-card-top">
+              <div class="journey-step-num">04</div>
+              <h3 class="journey-card-title">Launch</h3>
+              <p class="journey-card-desc">
+                Translate improved capability into the next career, corporate placement, or premier academic milestone with certainty.
+              </p>
+            </div>
+            <div class="journey-indicator">
+              <span>OWN THE OUTCOME</span>
+              <span>↗</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8.3 7-PHASE ARCHITECTURE (Orbital System) -->
+    <section class="section phase-architecture-section" id="sevenPhaseArchitecture">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="eyebrow eyebrow-light">7-PHASE ARCHITECTURE</span>
+          <h2 class="section-title">WE DON'T JUST TEACH. WE ENGINEER READINESS.</h2>
+          <p class="lead-text" style="color: #A4B3C2; margin: 0.8rem auto 0;">
+            A structured framework designed to build problem-solving ability, communication confidence, and real-world execution from day one.
+          </p>
+        </div>
+
+        <div class="phase-system-container" id="phaseSystemContainer">
+          <!-- Orbital Circle Visualizer -->
+          <div class="phase-orbit-stage" id="phaseOrbitStage" aria-label="Interactive 7-Phase Orbit Selector">
+            <svg class="phase-orbit-ring-svg" viewBox="0 0 480 480">
+              <circle cx="240" cy="240" r="185" fill="none" stroke="rgba(25, 185, 196, 0.22)" stroke-width="1.5" stroke-dasharray="6 6"/>
+              <circle cx="240" cy="240" r="130" fill="none" stroke="rgba(25, 185, 196, 0.12)" stroke-width="1"/>
+            </svg>
+
+            <!-- Center Orbital Core -->
+            <div class="phase-orbit-core">
+              <span class="core-tag">PLACED OS</span>
+              <span class="core-label">7-PHASE SYSTEM</span>
+            </div>
+
+            <!-- Orbital Interactive Nodes (01 to 07) -->
+            <button type="button" class="phase-node-btn is-active" data-phase="01" aria-label="Phase 01: Skill Benchmarking">01</button>
+            <button type="button" class="phase-node-btn" data-phase="02" aria-label="Phase 02: Foundational Upskilling">02</button>
+            <button type="button" class="phase-node-btn" data-phase="03" aria-label="Phase 03: Applied Practice">03</button>
+            <button type="button" class="phase-node-btn" data-phase="04" aria-label="Phase 04: Mentor Feedback">04</button>
+            <button type="button" class="phase-node-btn" data-phase="05" aria-label="Phase 05: Mock Recruitment">05</button>
+            <button type="button" class="phase-node-btn" data-phase="06" aria-label="Phase 06: Performance Review">06</button>
+            <button type="button" class="phase-node-btn" data-phase="07" aria-label="Phase 07: Outcome Launch">07</button>
+          </div>
+
+          <!-- Dynamic Center Info Panel -->
+          <div class="phase-info-panel reveal-on-scroll">
+            <div>
+              <div class="phase-badge-row">
+                <span class="phase-step-indicator" id="phaseStepIndicator">PHASE 01 OF 07</span>
+                <span class="phase-number-display" id="phaseNumberDisplay">01</span>
+              </div>
+              <h3 class="phase-display-title" id="phaseDisplayTitle">Skill Benchmarking</h3>
+              <p class="phase-display-desc" id="phaseDisplayDesc">
+                Establishing diagnostic starting points for aptitude, technical logic, workplace communication, and real-time execution.
+              </p>
+            </div>
+            <div>
+              <div class="phase-meta-tags" id="phaseMetaTags">
+                <span class="phase-tag">Diagnostic Assessment</span>
+                <span class="phase-tag">Aptitude Baseline</span>
+                <span class="phase-tag">Communication Audit</span>
+              </div>
+              <div style="margin-top: 1.8rem;">
+                <a href="programs.html" class="btn btn-primary" style="padding: 0.75rem 1.4rem; font-size: 0.88rem;">
+                  LEARN HOW IT APPLIES TO YOU →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8.4 THE PLACED ECOSYSTEM (3 Career Directions) -->
+    <section class="section section-dark" id="placedEcosystem">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="eyebrow eyebrow-light">THE PLACED ECOSYSTEM</span>
+          <h2 class="section-title">ONE CONNECTED FRAMEWORK. THREE CAREER DIRECTIONS.</h2>
+          <p class="lead-text" style="color: #A4B3C2; margin: 0.8rem auto 0;">
+            Specialized tracks built upon our shared foundation of simulation and measurable readiness.
+          </p>
+        </div>
+
+        <div class="ecosystem-grid">
+          <!-- Module 01: Corporate Readiness -->
+          <article class="eco-card reveal-on-scroll">
+            <div class="eco-card-top">
+              <div class="eco-index">01 MODULE</div>
+              <h3 class="eco-title">CORPORATE READINESS</h3>
+              <p class="eco-desc">
+                Engineered for campus placements, tier-1 tech firms, and consulting opportunities.
+              </p>
+              <div class="eco-features-list">
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> Hiring skills &amp; resume deconstruction
+                </div>
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> High-stakes technical &amp; HR interviews
+                </div>
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> Business communication &amp; group dynamics
+                </div>
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> Executive workplace confidence
+                </div>
+              </div>
+            </div>
+            <a href="programs.html#corporate" class="btn btn-secondary" style="width: 100%;">EXPLORE CORPORATE TRACK →</a>
+          </article>
+
+          <!-- Module 02: Public Exam Foundation -->
+          <article class="eco-card reveal-on-scroll">
+            <div class="eco-card-top">
+              <div class="eco-index">02 MODULE</div>
+              <h3 class="eco-title">PUBLIC EXAM FOUNDATION</h3>
+              <p class="eco-desc">
+                Structured discipline and speed-accuracy training for major competitive examinations.
+              </p>
+              <div class="eco-features-list">
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> National &amp; state government exams
+                </div>
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> Structured timed daily drills
+                </div>
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> Quantitative concept clarity
+                </div>
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> High-pressure sectional mock tests
+                </div>
+              </div>
+            </div>
+            <a href="programs.html#public-exam" class="btn btn-secondary" style="width: 100%;">EXPLORE EXAM TRACK →</a>
+          </article>
+
+          <!-- Module 03: Academic Navigator -->
+          <article class="eco-card reveal-on-scroll">
+            <div class="eco-card-top">
+              <div class="eco-index">03 MODULE</div>
+              <h3 class="eco-title">ACADEMIC NAVIGATOR</h3>
+              <p class="eco-desc">
+                Strategic guidance and roadmap execution for prestigious higher studies and research.
+              </p>
+              <div class="eco-features-list">
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> Domestic &amp; global higher studies mapping
+                </div>
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> Strategic goal &amp; profile alignment
+                </div>
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> Decision support &amp; institution vetting
+                </div>
+                <div class="eco-feature-item">
+                  <span class="eco-check">✓</span> Statement of purpose &amp; interview roadmap
+                </div>
+              </div>
+            </div>
+            <a href="programs.html#navigator" class="btn btn-secondary" style="width: 100%;">EXPLORE ACADEMIC TRACK →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8.5 MENTOR PREVIEW (Light Section) -->
+    <section class="section" id="mentorPreview">
+      <div class="container">
+        <div class="section-header text-center reveal-on-scroll">
+          <span class="eyebrow">LEARN FROM THE BEST</span>
+          <h2 class="section-title">MENTORS WHO MAKE COMPLEX FEEL ACTIONABLE.</h2>
+          <p class="lead-text" style="margin: 0.8rem auto 0;">
+            Direct guidance from practitioners with deep expertise in communication, career strategy, and quantitative aptitude.
+          </p>
+        </div>
+
+        <div class="mentor-grid">
+          <!-- Mentor 1: A S Abhishek -->
+          <article class="mentor-card reveal-on-scroll">
+            <div class="mentor-avatar-box">
+              <img src="assets/images/mentor-abhishek.svg" alt="A S Abhishek avatar placeholder" width="200" height="200" loading="lazy">
+            </div>
+            <div class="mentor-category-badge">COMMUNICATION</div>
+            <h3 class="mentor-name">A S Abhishek</h3>
+            <p class="mentor-role">Head of Communication &amp; Soft Skills Architecture</p>
+            <button type="button" class="mentor-card-btn" data-mentor-modal="abhishek">VIEW PROFILE</button>
+          </article>
+
+          <!-- Mentor 2: Vishnu Mohan R -->
+          <article class="mentor-card reveal-on-scroll">
+            <div class="mentor-avatar-box">
+              <img src="assets/images/mentor-vishnu.svg" alt="Vishnu Mohan R avatar placeholder" width="200" height="200" loading="lazy">
+            </div>
+            <div class="mentor-category-badge">CAREER STRATEGY</div>
+            <h3 class="mentor-name">Vishnu Mohan R</h3>
+            <p class="mentor-role">Director of Career Strategy &amp; Corporate Outreach</p>
+            <button type="button" class="mentor-card-btn" data-mentor-modal="vishnu">VIEW PROFILE</button>
+          </article>
+
+          <!-- Mentor 3: Vigneswaran A R -->
+          <article class="mentor-card reveal-on-scroll">
+            <div class="mentor-avatar-box">
+              <img src="assets/images/mentor-vigneswaran.svg" alt="Vigneswaran A R avatar placeholder" width="200" height="200" loading="lazy">
+            </div>
+            <div class="mentor-category-badge">APTITUDE</div>
+            <h3 class="mentor-name">Vigneswaran A R</h3>
+            <p class="mentor-role">Chief Aptitude Strategist &amp; Quantitative Architect</p>
+            <button type="button" class="mentor-card-btn" data-mentor-modal="vigneswaran">VIEW PROFILE</button>
+          </article>
+
+          <!-- Mentor 4: Experts & Alumni -->
+          <article class="mentor-card reveal-on-scroll">
+            <div class="mentor-avatar-box" style="background: linear-gradient(135deg, #052B45, #19B9C4);">
+              <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+              </svg>
+            </div>
+            <div class="mentor-category-badge">COMMUNITY</div>
+            <h3 class="mentor-name">Experts &amp; Alumni</h3>
+            <p class="mentor-role">Peer-led network of corporate mentors and working professionals</p>
+            <a href="mentors.html" class="mentor-card-btn">MEET ALL MENTORS</a>
+          </article>
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;" class="reveal-on-scroll">
+          <a href="mentors.html" class="btn btn-secondary">MEET THE MENTORS →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8.6 ANIMATED STATS SECTION (Dark Section) -->
+    <section class="section section-dark" id="statsSection">
+      <div class="container">
+        <div class="stats-grid">
+          <!-- Metric 1: 7 Phases -->
+          <div class="stat-item reveal-on-scroll">
+            <div class="stat-number" data-target="7">0</div>
+            <div class="stat-label">phases of readiness</div>
+          </div>
+
+          <!-- Metric 2: 3 Career Tracks -->
+          <div class="stat-item reveal-on-scroll">
+            <div class="stat-number" data-target="3">0</div>
+            <div class="stat-label">connected career tracks</div>
+          </div>
+
+          <!-- Metric 3: 360° Perspective -->
+          <div class="stat-item reveal-on-scroll">
+            <div class="stat-number" data-target="360" data-suffix="°">0°</div>
+            <div class="stat-label">career perspective</div>
+          </div>
+
+          <!-- Metric 4: 1 System -->
+          <div class="stat-item reveal-on-scroll">
+            <div class="stat-number" data-target="1">0</div>
+            <div class="stat-label">integrated learning system</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8.7 ALUMNI EDITORIAL QUOTE (Light Section) -->
+    <section class="section" id="alumniQuoteSection">
+      <div class="container">
+        <div class="quote-card reveal-on-scroll">
+          <div class="quote-mark">“</div>
+          <blockquote class="quote-body">
+            Joining PLACED changed doubt into confidence. The concepts were taught from the basics, and the process made preparation feel manageable.
+          </blockquote>
+          <div class="quote-author">
+            <div class="quote-avatar">
+              <img src="assets/images/alumni-devi.svg" alt="Alumni scholar placeholder avatar" width="48" height="48" loading="lazy">
+            </div>
+            <div>
+              <div class="quote-name">PLACED Scholar</div>
+              <div class="quote-role">Alumni Community · <em>Illustrative Testimonial</em></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8.8 FINAL CALL TO ACTION (Dark Navy Section) -->
+    <section class="section section-navy" id="finalCta">
+      <div class="container text-center reveal-on-scroll">
+        <span class="eyebrow eyebrow-light">READY TO ACCELERATE?</span>
+        <h2 class="section-title" style="margin-bottom: 1.2rem;">
+          TURN POTENTIAL INTO<br>MEASURABLE READINESS.
+        </h2>
+        <p class="lead-text" style="color: #CFDAE3; margin: 0 auto 2.5rem;">
+          Partner with PLACED to benchmark your students or accelerate your personal career trajectory.
+        </p>
+        <div style="display: flex; gap: 1.2rem; justify-content: center; flex-wrap: wrap;">
+          <a href="contact.html" class="btn btn-primary">BOOK A DEMO ↗</a>
+          <a href="programs.html" class="btn btn-secondary">EXPLORE PROGRAMS →</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- MENTOR PROFILE MODAL -->
+  <div class="modal-backdrop" id="mentorModal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="modalMentorName">
+    <div class="modal-dialog">
+      <button type="button" class="modal-close-btn" id="modalCloseBtn" aria-label="Close mentor details dialog">✕</button>
+      <span class="eyebrow" id="modalMentorCategory" style="margin-bottom: 0.4rem;">CATEGORY</span>
+      <h3 class="subsection-title" id="modalMentorName" style="margin-bottom: 0.4rem;">Mentor Name</h3>
+      <p class="text-teal" id="modalMentorRole" style="font-weight: 600; font-size: 0.95rem; margin-bottom: 1.2rem;">Role Title</p>
+      <p class="text-secondary" id="modalMentorBio" style="line-height: 1.7; margin-bottom: 1.8rem;">
+        Detailed mentor profile context and coaching background.
+      </p>
+      <div>
+        <div style="font-family: var(--font-display); font-size: 0.8rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-secondary); margin-bottom: 0.65rem;">
+          AREAS OF FOCUS
+        </div>
+        <div class="phase-meta-tags" id="modalMentorFocus"></div>
+      </div>
+      <div style="margin-top: 2.2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-subtle);">
+        <a href="contact.html" class="btn btn-primary" style="width: 100%;">ASK ABOUT MENTORSHIP →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div>
+          <a href="index.html" class="site-logo" style="color: #FFFFFF;" aria-label="PLACED Homepage">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="160" height="38" fill="none">
+              <g transform="translate(4, 4)">
+                <rect width="40" height="40" rx="10" fill="#062238" stroke="#19B9C4" stroke-width="1.2"/>
+                <path d="M 20,20 C 16,12 10,12 7,20 C 10,28 16,28 20,20 C 24,12 30,12 33,20 C 30,28 24,28 20,20 Z" stroke="rgba(25, 185, 196, 0.25)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M 20,20 C 16,12 10,12 7,20 C 10,28 16,28 20,20 C 24,12 30,12 33,20 C 30,28 24,28 20,20 Z" stroke="#11D1C1" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <text x="56" y="29" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="800" letter-spacing="-0.04em" fill="#FFFFFF">PLACED</text>
+              <circle cx="152" cy="24" r="3" fill="#11D1C1"/>
+            </svg>
+          </a>
+          <p class="text-muted" style="margin-top: 1rem; max-width: 320px; font-size: 0.92rem;">
+            The career-readiness system for ambitious students and forward-thinking educational institutions.
+          </p>
+          <div class="footer-tagline">INFINITE POSSIBILITIES. DEFINITE OUTCOME.</div>
+        </div>
+
+        <!-- Col 2: Explore -->
+        <div>
+          <h4 class="footer-col-title">EXPLORE</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="mentors.html">Mentors</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="alumni.html">Alumni Success</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Support & Contact -->
+        <div>
+          <h4 class="footer-col-title">SUPPORT &amp; CONTACT</h4>
+          <ul class="footer-links">
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="contact.html#faq">Help Center &amp; FAQ</a></li>
+            <li><a href="contact.html#privacy">Privacy Policy</a></li>
+            <li><a href="tel:+919000000000">+91 (Placeholder Call)</a></li>
+            <li><a href="mailto:contact@placed.example.com">contact@placed.example.com</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Connect & App -->
+        <div>
+          <h4 class="footer-col-title">CONNECT WITH US</h4>
+          <ul class="footer-links">
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram ↗</a></li>
+            <li><a href="https://youtube.com" target="_blank" rel="noopener noreferrer">YouTube ↗</a></li>
+            <li><a href="https://telegram.org" target="_blank" rel="noopener noreferrer">Telegram ↗</a></li>
+          </ul>
+          <div style="margin-top: 1.5rem;">
+            <span class="footer-col-title" style="display: block; margin-bottom: 0.5rem;">GET OUR APP</span>
+            <div class="app-store-btn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="#11D1C1">
+                <path d="M3 20.5v-17c0-.83.67-1.5 1.5-1.5.31 0 .6.1.84.28l14.28 8.5c.67.4 1.08 1.13 1.08 1.92s-.41 1.52-1.08 1.92l-14.28 8.5c-.24.18-.53.28-.84.28-.83 0-1.5-.67-1.5-1.5z"/>
+              </svg>
+              <span>Google Play (Coming Soon)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 PLACED. ALL RIGHTS RESERVED.</div>
+        <div style="font-family: var(--font-display); letter-spacing: 0.08em; font-weight: 600;">
+          DESIGNED FOR THE FUTURE.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" class="back-to-top-btn" id="backToTopBtn" aria-label="Back to top">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- JavaScript Engine -->
+  <script src="js/main.js" defer></script>
+</body>
+</html>
